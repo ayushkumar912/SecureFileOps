@@ -10,7 +10,7 @@ void encryptFile(const char* inputFile, const char* outputFile) {
     DES_cblock iv;
     DES_string_to_key("MySecretKey", &key);
     DES_set_key_checked(&key, &schedule);
-    memset(iv, 0, sizeof(iv));  // Simple IV for example
+    memset(iv, 0, sizeof(iv));
 
     std::ifstream infile(inputFile, std::ios::binary);
     std::ofstream outfile(outputFile, std::ios::binary);
@@ -28,7 +28,7 @@ void decryptFile(const char* inputFile, const char* outputFile) {
     DES_cblock iv;
     DES_string_to_key("MySecretKey", &key);
     DES_set_key_checked(&key, &schedule);
-    memset(iv, 0, sizeof(iv));  // Simple IV for example
+    memset(iv, 0, sizeof(iv)); 
 
     std::ifstream infile(inputFile, std::ios::binary);
     std::ofstream outfile(outputFile, std::ios::binary);
