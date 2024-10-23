@@ -19,7 +19,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/SecureFileOps.git
+   git clone https://github.com/ayushkumar912/SecureFileOps.git
    cd SecureFileOps
    ```
 
