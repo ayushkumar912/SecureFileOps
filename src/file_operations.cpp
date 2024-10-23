@@ -1,6 +1,3 @@
-#include <fstream>
-#include <cstring>
-#include <iostream>
 #include "file_operations.h"
 
 void createFile(const char* filename, size_t size) {

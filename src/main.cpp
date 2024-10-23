@@ -1,9 +1,4 @@
-#include <iostream>
-#include <iomanip>
-#include <openssl/sha.h>
-#include "file_operations.h"
-#include "crypto_operations.h"
-#include "hash_operations.h"
+#include "main.h"
 
 int main()
 {

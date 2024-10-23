@@ -1,9 +1,4 @@
-#include <openssl/des.h>
-#include <cstring>
-#include <iostream>
-#include <fstream>
 #include "crypto_operations.h"
-
 void encryptFile(const char* inputFile, const char* outputFile) {
     DES_cblock key;
     DES_key_schedule schedule;

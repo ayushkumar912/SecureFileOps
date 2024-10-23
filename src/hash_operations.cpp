@@ -1,9 +1,7 @@
-#include <fstream>
-#include <cstring>
-#include <openssl/sha.h>
+
 #include "hash_operations.h"
 
-void computeFileHash(const char* filename, unsigned char *hash) { // Update to accept hash pointer
+void computeFileHash(const char* filename, unsigned char *hash) { 
     char buffer[4096];
     std::ifstream file(filename, std::ios::binary);
     SHA256_CTX sha256;
