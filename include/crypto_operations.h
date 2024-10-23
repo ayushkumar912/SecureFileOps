@@ -4,7 +4,7 @@
 #include <cstring>
 #include <iostream>
 #include <fstream>
-void encryptFile(const char *inputFile, const char *outputFile);
-void decryptFile(const char *inputFile, const char *outputFile);
+void encryptFile(const char* inputFile, const char* outputFile, const char* secretKey);
+void decryptFile(const char* inputFile, const char* outputFile, const char* secretKey);
 
 #endif

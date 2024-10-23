@@ -27,3 +27,6 @@ $(BUILD_DIR)/%.o: $(SRC_DIR)/%.cpp
 
 clean:
 	rm -f $(BUILD_DIR)/*.o $(TARGET)
+	rm -f data/*.txt
+	rm -f data/*.bin
+
