@@ -1,4 +1,3 @@
-
 #include "hash_operations.h"
 
 void computeFileHash(const char* filename, unsigned char *hash) { 
