@@ -69,5 +69,4 @@ This project is licensed under the Apache License. See the [LICENSE](LICENSE) fi
 ## Acknowledgments
 
 - [OpenSSL](https://www.openssl.org/) for the cryptographic library.
-- Any other libraries or resources you used.
 # SecureFileOps
